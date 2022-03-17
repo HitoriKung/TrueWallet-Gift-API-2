@@ -2,7 +2,7 @@
 class HitoriAPI{
     public $licensekey = ''; //กรุณาใส่คีย์ คีย์จะแสดงอยู่ที่ https://n.hitorikungz.tk
 
-    public $api = 'https://api.hitori.tk/gift.php';
+    public $api = 'https://api.hitori.tk/v2.php';
     function truewallet($gift){
         $curl = curl_init();
         curl_setopt_array($curl, array(
